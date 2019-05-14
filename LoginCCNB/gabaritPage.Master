@@ -1,0 +1,57 @@
+﻿<!--
+    Programmeur : Briand Ininahazwe
+    Date        : Mai 2019
+    But         : Projet 02
+
+    Solution    : LoginCCNB.sln
+    Classe      : LoginCCNB.Master
+-->
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="gabaritPage.master.cs" Inherits="LoginCCNB.gabaritPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Page maitre</title>
+    <style type="text/css">
+        .auto-style1 {
+            height: 26px;
+        }
+
+        .auto-style2 {
+            width: 12px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="width: 100%;">
+            <tr>
+                <td class="auto-style1" colspan="2" style="background-color: #CCFFFF; font-size: xx-large; font-weight: bold;">
+                    <asp:Image ID="logoImage" runat="server" Height="41px" ImageUrl="~/Resources/ccnblogo.png" Width="36px" />
+                    &nbsp;CCNB
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2" align="left" valign="top" style="background-color: #FFFFCC">
+                    <asp:Menu ID="Menu1" runat="server">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Clients.aspx" Text="Clients" Value="Clients"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Employes.aspx" Text="Employés" Value="Employés"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/LoginCCNB.aspx" Text="LoginCCNB" Value="LoginCCNB"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td style="background-color: #CCFFCC">
+                    <asp:ContentPlaceHolder ID="infosCCNBContentPlaceHolder" runat="server">
+                        <p>
+                            &nbsp;</p>
+                    </asp:ContentPlaceHolder>
+
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

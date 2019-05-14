@@ -1,0 +1,9 @@
+D:\Cours_Niveau2\Session3\PROG1318\Projet\Projet02\LoginCCNB\bin\LoginCCNB.dll.config
+D:\Cours_Niveau2\Session3\PROG1318\Projet\Projet02\LoginCCNB\bin\LoginCCNB.dll
+D:\Cours_Niveau2\Session3\PROG1318\Projet\Projet02\LoginCCNB\bin\LoginCCNB.pdb
+D:\Cours_Niveau2\Session3\PROG1318\Projet\Projet02\LoginCCNB\obj\Debug\LoginCCNB.csprojAssemblyReference.cache
+D:\Cours_Niveau2\Session3\PROG1318\Projet\Projet02\LoginCCNB\obj\Debug\LoginCCNB.Properties.Resources.resources
+D:\Cours_Niveau2\Session3\PROG1318\Projet\Projet02\LoginCCNB\obj\Debug\LoginCCNB.csproj.GenerateResource.cache
+D:\Cours_Niveau2\Session3\PROG1318\Projet\Projet02\LoginCCNB\obj\Debug\LoginCCNB.csproj.CoreCompileInputs.cache
+D:\Cours_Niveau2\Session3\PROG1318\Projet\Projet02\LoginCCNB\obj\Debug\LoginCCNB.dll
+D:\Cours_Niveau2\Session3\PROG1318\Projet\Projet02\LoginCCNB\obj\Debug\LoginCCNB.pdb
